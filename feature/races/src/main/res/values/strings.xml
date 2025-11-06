@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="race_list_title">Next to Go</string>
+    <string name="filters_all">All</string>
+    <string name="race_category_horse">Horse</string>
+    <string name="race_category_harness">Harness</string>
+    <string name="race_category_greyhound">Greyhound</string>
+    <string name="race_placeholder_title">Awaiting race</string>
+    <string name="race_placeholder_subtitle">We’ll refresh shortly</string>
+    <string name="error_network">Check your connection and try again.</string>
+    <string name="error_server">The racing feed is busy. Try again soon.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+    <string name="error_dismiss">Dismiss</string>
+    <string name="race_last_updated">Updated %1$s</string>
+</resources>
