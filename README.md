@@ -27,8 +27,7 @@ It embraces a multi modular stack with Compose to deliver a polished, accessible
 | `core:testing` | Common test utilities (dispatcher rule, controllable clock). |
 
 ## Demo
-Watch the walkthrough (recorded on device):
-- [`docs/media/next-races-demo.webm`](docs/media/next-races-demo.webm)
+![Next Races demo](docs/media/next-races-demo.gif)
 
 ## Tech Stack
 - **Language:** Kotlin 2.2.21 (Compose compiler plugin aligned)
