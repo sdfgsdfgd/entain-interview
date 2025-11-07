@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalTime::class)
+
 package com.entain.nextraces.races.presentation
 
 import androidx.lifecycle.ViewModel
@@ -22,6 +24,7 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.flow.updateAndGet
 import kotlinx.coroutines.launch
 import javax.inject.Inject
+import kotlin.time.ExperimentalTime
 
 @HiltViewModel
 class RacesViewModel @Inject constructor(

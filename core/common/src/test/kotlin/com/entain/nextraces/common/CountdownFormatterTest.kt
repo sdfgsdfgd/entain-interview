@@ -1,6 +1,5 @@
 package com.entain.nextraces.common
 
-import kotlinx.datetime.Instant
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import kotlin.time.Duration.Companion.hours

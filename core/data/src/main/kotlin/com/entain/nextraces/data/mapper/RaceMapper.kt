@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalTime::class)
+
 package com.entain.nextraces.data.mapper
 
 import com.entain.nextraces.model.Race
@@ -5,7 +7,8 @@ import com.entain.nextraces.model.RaceCategory
 import com.entain.nextraces.network.api.NextRacesDataDto
 import com.entain.nextraces.network.api.RaceSummaryDto
 import javax.inject.Inject
-import kotlinx.datetime.Instant
+import kotlin.time.ExperimentalTime
+import kotlin.time.Instant
 
 class RaceMapper @Inject constructor() {
 

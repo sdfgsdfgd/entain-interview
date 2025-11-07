@@ -1,9 +1,12 @@
+@file:OptIn(ExperimentalTime::class)
+
 package com.entain.nextraces.races.presentation
 
 import androidx.annotation.StringRes
 import com.entain.nextraces.common.CountdownDisplay
 import com.entain.nextraces.model.RaceCategory
-import kotlinx.datetime.Instant
+import kotlin.time.ExperimentalTime
+import kotlin.time.Instant
 
 data class RacesUiState(
     val items: List<RaceListItem> = emptyList(),

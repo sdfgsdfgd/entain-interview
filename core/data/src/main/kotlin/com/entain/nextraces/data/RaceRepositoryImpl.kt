@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalTime::class)
+
 package com.entain.nextraces.data
 
 import android.util.Log
@@ -15,6 +17,7 @@ import kotlinx.coroutines.withContext
 import kotlinx.serialization.SerializationException
 import java.io.IOException
 import javax.inject.Inject
+import kotlin.time.ExperimentalTime
 
 private const val DEFAULT_COUNT = 10
 private const val FETCH_INCREMENT = 10

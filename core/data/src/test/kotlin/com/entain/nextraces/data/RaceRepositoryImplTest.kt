@@ -13,7 +13,6 @@ import com.entain.nextraces.network.api.RaceSummaryDto
 import com.entain.nextraces.testing.TestDispatcherRule
 import com.entain.nextraces.testing.TestTimeProvider
 import kotlinx.coroutines.test.runTest
-import kotlinx.datetime.Instant
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Rule

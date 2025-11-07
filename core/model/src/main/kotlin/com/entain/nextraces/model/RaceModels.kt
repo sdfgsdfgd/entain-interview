@@ -1,8 +1,11 @@
+@file:OptIn(ExperimentalTime::class)
+
 package com.entain.nextraces.model
 
-import kotlinx.datetime.Instant
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.minutes
+import kotlin.time.ExperimentalTime
+import kotlin.time.Instant
 
 const val MAX_RACES_DISPLAY = 5
 

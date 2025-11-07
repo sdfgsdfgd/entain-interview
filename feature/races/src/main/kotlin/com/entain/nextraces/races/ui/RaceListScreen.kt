@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalTime::class)
+
 package com.entain.nextraces.races.ui
 
 import androidx.compose.animation.AnimatedVisibility
@@ -69,9 +71,9 @@ import com.entain.nextraces.races.presentation.RaceListItem
 import com.entain.nextraces.races.presentation.RacesUiState
 import com.entain.nextraces.races.presentation.RacesViewModel
 import kotlinx.coroutines.delay
-import kotlinx.datetime.Instant
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
+import kotlin.time.ExperimentalTime
 
 @Composable
 fun RaceListRoute(
@@ -435,7 +437,7 @@ private fun RaceCategory.labelRes(): Int = when (this) {
     RaceCategory.GREYHOUND -> R.string.race_category_greyhound
 }
 
-private fun formatLastUpdated(instant: Instant): String {
+private fun formatLastUpdated(instant: kotlin.time.Instant): String {
     val localTime = instant.toLocalDateTime(TimeZone.currentSystemDefault())
     return "%02d:%02d:%02d".format(localTime.hour, localTime.minute, localTime.second)
 }
