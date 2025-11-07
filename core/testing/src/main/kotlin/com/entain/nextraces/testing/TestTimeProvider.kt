@@ -1,7 +1,10 @@
+@file:OptIn(ExperimentalTime::class)
+
 package com.entain.nextraces.testing
 
 import com.entain.nextraces.common.TimeProvider
 import kotlin.time.Duration
+import kotlin.time.ExperimentalTime
 
 fun TestTimeProvider.advanceBy(duration: Duration) {
     current += duration

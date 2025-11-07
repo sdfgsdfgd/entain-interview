@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalTime::class)
+
 package com.entain.nextraces.data
 
 import com.entain.nextraces.common.AppResult
@@ -20,6 +22,8 @@ import org.junit.Test
 import java.io.IOException
 import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Duration.Companion.seconds
+import kotlin.time.ExperimentalTime
+import kotlin.time.Instant
 
 class RaceRepositoryImplTest {
 
