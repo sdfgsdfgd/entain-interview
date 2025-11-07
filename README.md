@@ -26,6 +26,10 @@ It embraces a multi modular stack with Compose to deliver a polished, accessible
 | `core:designsystem` | Material 3 theme wrapper and reusable UI primitives. |
 | `core:testing` | Common test utilities (dispatcher rule, controllable clock). |
 
+## Demo
+Watch the walkthrough (recorded on device):
+- [`docs/media/next-races-demo.webm`](docs/media/next-races-demo.webm)
+
 ## Tech Stack
 - **Language:** Kotlin 2.2.21 (Compose compiler plugin aligned)
 - **UI:** Jetpack Compose BOM 2025.11.00 with Material 3 v1.4.0 and Compose 1.9 `animateItem`
